@@ -35,7 +35,7 @@ function populateList(list){
     }
 }
 
-let shippingList = ["cheese", "bread", "pepper"];
+let shippingList = ["cheese", "bread", "green pepper"];
 
 populateList(shippingList);
 
@@ -62,3 +62,15 @@ function updateImage(){
 }
 
 updateImage();
+
+function coloringgreen(){
+    const listItems = document.querySelectorAll(".shopping li");
+    for (let i = 0; i < listItems.length; i++)
+    {
+        if(listItems[i].textContent.includes('green')){
+        listItems[i].classList.add("greentext");
+        }
+    }
+
+}
+coloringgreen();
