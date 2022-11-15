@@ -38,3 +38,27 @@ function populateList(list){
 let shippingList = ["cheese", "bread", "pepper"];
 
 populateList(shippingList);
+
+function changelinkstyle(){
+    unorderedListElement.classList.add("squareList");
+    unorderedListElement.classList.remove("circleList");
+
+    // or
+    //unorderedListElement.classList.replace"(circleList","squareList");
+
+}
+
+// Adding and image and width height and alt
+
+changelinkstyle();
+
+function updateImage(){
+    const imageElement = document.querySelector('#shoppingCart');
+    console.log(imageElement);
+    imageElement.src = "https://cdn-icons-png.flaticon.com/512/263/263142.png"
+    imageElement.width = 100;
+    imageElement.height = 100;
+    imageElement.alt = "shipping cart icon"
+}
+
+updateImage();
