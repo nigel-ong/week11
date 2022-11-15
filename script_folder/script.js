@@ -1,6 +1,17 @@
-function greet(somename){
-    return console.log(`Hello ${somename}!`)
-}
+// simple function
+// function greet(somename){
+//     return console.log(`Hello ${somename}!`);
+// }
 
-git
-greet("Nigel")
+// variable as a function
+// let greet = function (somename){
+//     return console.log(`Hello ${somename}!`);
+// }
+
+// arrow function
+// let greet = (somename) => {
+//     return console.log(`Hello ${somename}!`);
+// }
+
+// greet("Nigel");
+// greet("Neda");
